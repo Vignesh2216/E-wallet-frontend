@@ -34,7 +34,7 @@ const LoginForm = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:8080/api/auth/login', formData);
+      const response = await axios.post('https://e-wallet-backend-mov2.onrender.com/api/auth/login', formData);
       
       if (response.data.success) {
         // Store token and user data
