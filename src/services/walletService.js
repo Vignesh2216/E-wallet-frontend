@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_URL = 'http://localhost:8080/api/wallet';
+const API_URL = 'https://e-wallet-backend-mov2.onrender.com/api/wallet';
 
 const walletService = {
   createWallet: async (userId) => {
