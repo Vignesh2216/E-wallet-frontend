@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE_URL = 'http://localhost:8080/api/complaints';
+const BASE_URL = 'https://e-wallet-backend-mov2.onrender.com/api/complaints';
 
 const ComplaintService = {
   getAllComplaints: () => axios.get(BASE_URL),
