@@ -53,7 +53,7 @@ const RegisterForm = () => {
 
     try {
       const { confirmPassword, ...registerData } = formData;
-      const response = await axios.post('http://localhost:8080/api/auth/register', registerData);
+      const response = await axios.post('https://e-wallet-backend-mov2.onrender.com/api/auth/register', registerData);
       
       if (response.data.success) {
         // Redirect to login page after successful registration
